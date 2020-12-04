@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/lib/vue/vue.min.js"></script>
+    <script src="~/lib/element-ui/index.js"></script>
+    @*<script src="~/lib/axios/axios.min.js"></script>*@
+    <link rel="stylesheet" href="~/lib/element-ui/index.css">
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+    <script>
+        //全局设置elementui组件尺寸：small
+        Vue.prototype.$ELEMENT = { size: 'small' }
+    </script>
+    @RenderSection("Heads", required: false)
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+@RenderSection("Scripts", required: false)
+</html>

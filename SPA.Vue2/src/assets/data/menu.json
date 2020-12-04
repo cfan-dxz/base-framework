@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "系统管理",
+    "children": [
+      {
+        "id": 10,
+        "title": "系统设置",
+        "icon": "el-icon-menu",
+        "children": [
+          {
+            "id": 101,
+            "rootId": 1,
+            "title": "Demo",
+            "path": "/demo"
+          },
+          {
+            "id": 102,
+            "rootId": 1,
+            "title": "Test",
+            "path": "/test"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "组织架构",
+        "icon": "el-icon-share",
+        "children": [
+          {
+            "id": 111,
+            "rootId": 1,
+            "title": "用户管理",
+            "path": "/user"
+          },
+          {
+            "id": 112,
+            "rootId": 1,
+            "title": "角色管理",
+            "path": "/role"
+          },
+          {
+            "id": 113,
+            "rootId": 1,
+            "title": "部门管理",
+            "path": "/org"
+          },
+          {
+            "id": 114,
+            "rootId": 1,
+            "title": "模块管理",
+            "path": "/module"
+          }
+        ]
+      }
+    ]
+  }
+]
