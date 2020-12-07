@@ -3,7 +3,7 @@
  */
 export default {
   name: 'Demo', //系统名称
-  company: '菲卡科技', //公司
-  domain: 'feikagz.com', //主域名
+  company: 'XX科技', //公司
+  domain: 'dengxz.com', //主域名
   tokenName: 'Admin-Token' //授权token
 }
